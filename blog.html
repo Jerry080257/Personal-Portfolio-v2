@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abir Chakraborty - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/services.html">Projects</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contacts.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="ham.png" alt="" width="77px">
+                <img class="cross" src="cross2.png" alt="" width="45px">
+
+            </div>
+            <div class="blogContainer">
+                <h2>Inheritance in Python(explained in my way)</h2>
+                <pre>Inheritance is a concept that can be explained with real life example. Like we as a child can inherit the properties form our parents, grandparents, great-grandparents and so on…
+                    👵+👴(grandparents)==>👱‍♀️+👱‍♂️(parents)==>👧(child, has some properties from the parents and grandparents also.)
+                    In Python we can do the same, except we inherit the properties from base class to the child class. Like in this example
+                    class animal:
+                    def eats(self):
+                    print("It eats")
+                    def sleeps(self):
+                    print("It sleeps")
+                    class bird(animal):
+                    def fly(self):
+                    print("bird flies bro:-)")
+                    def chirps(self):
+                    print("bird sings or chirps!!!")</pre>
+                    <br>
+                    <br>
+                    <h2>Data Abstraction in Python</h2>
+                    <pre>Data Abstraction is a pretty simple but complicated and also an important topic in OOPs .
+                        You need the "Abstraction to prevent unnecessary or complicated code to be displayed to the user" . 
+                        It is called complexity handling as it reduced programming complexity and efforts.
+                        "The act of representing essential features without including the background details of explanation."</pre>
+                        <br>
+                        <br>
+                        <h2>String In Python</h2>
+                    <pre>It is a data type. It is a series of characters and are represented by quotation marks. And to create a string we use single quotes or double quotes in python.
+                        Example:-
+                        name='tupac'  #(variable ="name" and data type is string of course) it means that the value "tupac" is assigned to "name".
+                        print(name) 
+                        print("Hello "+name)
+                        Combining two strings: - 
+                        no_1_str="Snake is a venomous reptile." 
+                        no_2_str="Some snakes can fly too!!"
+                        full_str=no_1_str+" "+no_2_str
+                        print(full_str+" ya lol NO SHIT SHERLOCK")
+                        Python allows for either pairs of single or double quotes. Strings are immutable sequence data type, i.e each time one makes any changes to a string, completely new string object is created.
+                        A elaborate example to find a particular letter from the given string:-
+                        f_test='Hello_Universe'
+                        print(f_test)  #output will be whole string. 'Hello Universe'
+                        print(f_test[0])  #output will be the first charachter.'H'
+                        print(f_test[0:5])  #output will the first five charachters. 'Hello'</pre>
+            </div>
+            
+            </div>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
